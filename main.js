@@ -4,11 +4,11 @@ import { SplitText } from 'gsap/SplitText'
 gsap.registerPlugin(SplitText)
 
 const slideData = [
-	{ title: 'Wind Stance', image: '/slider_img_1' },
-	{ title: 'Earth Stance', image: '/slider_img_2' },
-	{ title: 'Fire Stance', image: '/slider_img_3' },
-	{ title: 'Water Stance', image: '/slider_img_4' },
-	{ title: 'Void Stance', image: '/slider_img_5' },
+	{ title: 'Wind Stance', image: './slider_img_1' },
+	{ title: 'Earth Stance', image: './slider_img_2' },
+	{ title: 'Fire Stance', image: './slider_img_3' },
+	{ title: 'Water Stance', image: './slider_img_4' },
+	{ title: 'Void Stance', image: './slider_img_5' },
 ]
 
 const container = document.querySelector('.container')
